@@ -1,9 +1,9 @@
 (function() {
     // Add event listener
     document.addEventListener("mousemove", parallax);
-    const elem = document.querySelector("#parallax");
+    const elem = document.querySelector(".parallax-wrapper");
     // Magic happens here
-    if ($("#parallax").length < 1) {
+    if ($(".parallax-wrapper").length < 1) {
     	return
     };
 
